@@ -1,0 +1,35 @@
+body {
+    font-family: Times New Roman, serif; /* Изменил шрифт на Times New Roman */
+    margin: 10px; /* Изменил отступы */
+    padding: 10px; /* Изменил внутренние отступы */
+    background-color: #e6e6e6; /* Изменил цвет фона */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Изменил распределение между элементами */
+    padding: 30px; /* Увеличил внутренние отступы */
+}
+
+.column {
+    flex: 1;
+    padding: 30px; /* Увеличил внутренние отступы */
+    border-radius: 20px; /* Увеличил радиус границы */
+}
+
+.friendly {
+    background-color: #b3ffb3; /* Изменил цвет фона для класса .friendly */
+}
+
+.predator {
+    background-color: #ffb3b3; /* Изменил цвет фона для класса .predator */
+}
+
+h2 {
+    margin-top: 20px; /* Увеличил отступ сверху */
+}
+
+img {
+    border: 15px solid #56382d; /* Увеличил ширину рамки и изменил цвет */
+    width: 500px; /* Увеличил ширину изображения */
+}
